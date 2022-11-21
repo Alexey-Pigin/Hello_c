@@ -1,0 +1,15 @@
+C:\stady\github\Basic_commands_Git\C#\example\example001\bin\Debug\net6.0\example001.exe
+C:\stady\github\Basic_commands_Git\C#\example\example001\bin\Debug\net6.0\example001.deps.json
+C:\stady\github\Basic_commands_Git\C#\example\example001\bin\Debug\net6.0\example001.runtimeconfig.json
+C:\stady\github\Basic_commands_Git\C#\example\example001\bin\Debug\net6.0\example001.dll
+C:\stady\github\Basic_commands_Git\C#\example\example001\bin\Debug\net6.0\example001.pdb
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.csproj.AssemblyReference.cache
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.GeneratedMSBuildEditorConfig.editorconfig
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.AssemblyInfoInputs.cache
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.AssemblyInfo.cs
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.csproj.CoreCompileInputs.cache
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.dll
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\refint\example001.dll
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.pdb
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\example001.genruntimeconfig.cache
+C:\stady\github\Basic_commands_Git\C#\example\example001\obj\Debug\net6.0\ref\example001.dll
