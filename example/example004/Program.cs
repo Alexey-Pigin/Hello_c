@@ -1,7 +1,7 @@
 ﻿// Summa
-int numberA = 5;
-int numberB = 15;
-Console.WriteLine(numberA+numberB);
+double numberA = 12;
+double numberB = 5;
+Console.WriteLine(numberA / numberB);
 
 int numberC = 3;
 int numberD = 15;
