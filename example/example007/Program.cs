@@ -25,10 +25,10 @@ Console.SetCursorPosition(xa,ya);               //Отображегие вер�
 Console.WriteLine("+");
 
 Console.SetCursorPosition(xb,yb);
-Console.WriteLine("+");
+Console.WriteLine("0");
 
 Console.SetCursorPosition(xc,yc);
-Console.WriteLine("+");
+Console.WriteLine("-");
 
 
 int x = xa, y = xb;
