@@ -5,13 +5,24 @@
 // 8 -> 2, 4, 6, 8
 Console.Clear();
 Console.Write("Введите чило..."); 
-int number = Convert.ToInt32(Console.ReadLine()); 
-int start = 1; 
-while (start <= number)
+
+int n = Convert.ToInt32(Console.ReadLine()); // 
+for (int i=2; i <= n; i = i + 2)
 {
-    if (start % 2 == 0)
-    {
-        Console.WriteLine(start + "    ");
-    }
-    start+=1;
+    if(i+2>n)
+    Console.Write($"{i}");
+    else
+    Console.Write($"{i}, ");
+
 }
+    
+// int number = Convert.ToInt32(Console.ReadLine());          // решение 1 
+// int start = 1; 
+// while (start <= number)
+// {
+//     if (start % 2 == 0)
+//     {
+//         Console.WriteLine(start + "    ");
+//     }
+//     start+=1;
+// }
