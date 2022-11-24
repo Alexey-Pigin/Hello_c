@@ -9,12 +9,10 @@
 // Console.WriteLine($"первое и последнее {first }{ last}");
 
 Console.Clear();
- System.Console.Write("1 number : ");
- int number1 = Convert.ToInt32(Console.ReadLine());
- System.Console.Write("2 number : ");
- int number2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("1 number : ");
+int a = Convert.ToInt32(Console.ReadLine());
 
- if(number1 % number2 == 0)  // деление на первого на второй   % остаток при делении.
+if(a % 7 == 0 && a % 23 == 0)   //((a % 7 == 0) + (a % 23 == 0))  // деление на первого на второй   % остаток при делении.
     Console.Write("yes");
 else
-    Console.Write($"no {number1 % number2}");
+    Console.Write($"no ");
