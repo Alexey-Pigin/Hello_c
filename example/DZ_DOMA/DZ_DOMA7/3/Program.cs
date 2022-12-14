@@ -34,13 +34,27 @@ void ReleaseMatrix(double[,] matrix)
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
             sum+=matrix[i,j];
-            
             Console.Write($"{matrix[i, j]} \t");
         }
         Console.Write($"Среднее арифметическое строки { sum / matrix.GetLength(0)} ");
         Console.WriteLine();
     }
 }
+void ReleaseMatrix1(double[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(1); i++)
+    {
+        double sum =0;
+        for (int j = 0; j < matrix.GetLength(0); j++)
+        {
+            sum+=matrix[j,i];
+            Console.Write($"{matrix[j, i]} \t");
+        }
+        Console.Write($"Среднее арифметическое столбиков { sum / matrix.GetLength(1)} ");
+        Console.WriteLine();
+    }
+}
+
 Console.Clear();
 Console.Write("Введите размеры матрицы: ");
 string[] numbers = Console.ReadLine().Split(" ");
@@ -50,6 +64,12 @@ InputMatrix(matrix);
 
 Console.WriteLine();
 Console.WriteLine("Результат: ");
+
 ReleaseMatrix(matrix);
+Console.WriteLine();
+
+
+Console.WriteLine("Результат столбиков: ");
+ReleaseMatrix1(matrix);
 
 
